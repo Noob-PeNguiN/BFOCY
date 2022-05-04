@@ -72,7 +72,7 @@
       - 打开cmd命令 cd进入该位置 使用pip进行安装
     - 有anaconda cmd命令安装
       	- 使用conda create 命令具体create格式前面应该有涉及,不做赘述
-       - a)  pip install --target=D:\anaconda\Anaconda3\envs\pytorch\Lib\site-packages torch== 1.7.1+cu101 torchvision== 0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+       - a)  pip install --target=D:\anaconda\Anaconda3\envs\pytorch\Lib\site-packages torch\==1.7.1+cu101 torchvision==0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
           (注释：直接使用pip install是安装到系统python中，而我们现在是要安装到虚拟环境中，所以安装指令一定要包含安装路径 --target部分 \pytorch 是我创建的虚拟环境名字 你们要改成对应虚拟环境的名字)
      - 有anaconda离线安装 
         - 结合上面的方法即可实现，不再赘述
