@@ -65,7 +65,7 @@
 
   - 在线下载也好，离线安装的whl文件也罢，一定一定要记住选择cu版本，而不是cpu版本！安装了cpu版本，torch.cuda.is_available()返回是False。可以通过 pip list 查看自己有没有安装错，错了就pip uninstall，然后进行下列步骤
     - 无anaconda利用cmd安装
-      - pip install torch== 1.7.1+cu101 torchvision== 0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.tuna.tsinghua.edu.cn/simple some-package（-i 是国内镜像源 直接从官网下有点慢）
+      - pip install torch\==1.7.1+cu101 torchvision==0.8.2+cu101 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.tuna.tsinghua.edu.cn/simple some-package（-i 是国内镜像源 直接从官网下有点慢）
     - 无anaconda离线安装
       - 首先去[下载](https://download.pytorch.org/whl/torch_stable.html)对应版本whl文件，网页上面是cpu版本，记得往下滑，要记住下载的位置
       - 记得是两个whl文件 一个torch 一个torchvision
