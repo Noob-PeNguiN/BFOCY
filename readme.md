@@ -21,15 +21,15 @@
        1. win+r键，输入cmd，确定
        2. 输入 conda --version
        3. 输入 anaconda --version
-          ![图片](/image_readme/anaconda2.png)
+          ![图片](/image_readme/anaconda1.png)
 
      - 配置完配置完anaconda的环境变量后，win+r输入cmd ，打开cmd窗口后输入python显示的是anaconda的python版本，如果因为不习惯而需要换回原先系统的python解释器(此步可以不进行)，只需要在环境变量PATH中把系统python路径上移到anaconda之前即可。
 
-       ​		![图片](C:\Users\Administrator\Desktop\image_readme\anaconda2.png)
+       ​		![图片](/image_readme/anaconda2.png)
 
         完成之后效果
 
-       ![图片](C:\Users\Administrator\Desktop\image_readme\anaconda3.png)
+       ![图片](/image_readme/anaconda3.png)
 
 
 
@@ -46,7 +46,7 @@
 
     - 进入后点击左下角系统信息即可看到
 
-      ![图片](C:\Users\Administrator\Desktop\image_readme\cuda1.png)
+      ![图片](/image_readme/cuda1.png)
 
 - CUDA cuDNN安装
   - [教程](https://blog.csdn.net/sinat_23619409/article/details/84202651)
@@ -59,7 +59,7 @@
 
 - python与CUDA对应版本
   - 在[这里](https://pytorch.org/get-started/previous-versions/)查找对应版本，例如 我安装的是CUDA11.0 那我就应该下载pytorch 1.7.1和torchvision 0.8.2
-  - ![图片](C:\Users\Administrator\Desktop\image_readme\pytorch1.png)
+  - ![图片](/image_readme/pytorch1.png)
 
 - 安装方法
 
@@ -86,6 +86,6 @@
 
   - Conda 环境中 create命令是要在base环境下进行 如果在子环境下创建就套娃了；而且，这种情况下的虚拟环境使用conda remove -n xxx –all 命令是无效的 需要使用conda-env remove -p xxx -p 后面接的是路径 用conda info --envs 可以看到
 
-    ![图片](C:\Users\Administrator\Desktop\image_readme\last.png)
+    ![图片](/image_readme/last.png)
 
   - 想查看自己有没有安装错位置 也在对应环境下使用conda list 查看包 看看有没有相应的包名
