@@ -21,7 +21,7 @@
        1. win+r键，输入cmd，确定
        2. 输入 conda --version
        3. 输入 anaconda --version
-          ![图片](C:\Users\Administrator\Desktop\image_readme\anaconda1.png)
+          ![图片](/image_readme/anaconda1.png)
 
      - 配置完配置完anaconda的环境变量后，win+r输入cmd ，打开cmd窗口后输入python显示的是anaconda的python版本，如果因为不习惯而需要换回原先系统的python解释器(此步可以不进行)，只需要在环境变量PATH中把系统python路径上移到anaconda之前即可。
 
